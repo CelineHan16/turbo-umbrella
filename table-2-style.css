@@ -1,0 +1,36 @@
+table {
+  border-collapse: collapse;
+  height: 500px;
+  
+}
+tr {
+  border: none;
+  font-size: 17px;
+}
+tr:first-child {
+  padding: 10px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+tr:last-child {
+  padding: 10px;
+  height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+  border-top: 1px solid rgb(170, 168, 168);
+  padding-top: 10px;
+}
+tr:nth-of-type(even) {
+  background-color: rgb(184, 180, 180);
+}
+tr:last-child {
+  background-color: white;
+}
+tr:nth-child(4) {
+  background-color: #89c0f0;
+  border: 1px solid rgb(172, 166, 166); 
+}
+td {
+  padding: 10px;
+}
